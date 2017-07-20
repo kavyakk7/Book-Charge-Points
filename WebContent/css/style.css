@@ -1,0 +1,200 @@
+@CHARSET "ISO-8859-1";
+
+html { 
+  height: 100%;
+}
+
+body { 
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  background: url(../images/bgimage.jpg);
+  color: black;
+  padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+#site_content {
+ height: 850px;
+ width:950px;
+ background: 	#FBA399; 
+ overflow: hidden;  
+  margin: 4px auto 0 auto;
+  padding: 5px;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#sidebar_container {
+  float: left;
+  width: 450px;
+  padding: 0;
+  height: 850px;
+}
+
+#content { 
+  text-align: justify;
+  width: 444px;
+  padding: 0 0 5px 30px;
+  margin: 0;
+  float: left;
+}
+
+#main, header, #logo, nav, #site_content, footer { 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#main { 
+  width: 950px;
+  margin: 20px auto 0 auto;
+}
+
+nav { 
+  height: 26px;
+  width: 720px;
+  margin: 1px auto 0 auto;
+  float: right;
+  padding: 35px 0 0 0;
+} 
+
+.lavaLampWithImage {
+  position: relative;
+  height: 25px;
+  padding: 15px 5px 15px 0;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+  float: right;
+}
+
+.lavaLampWithImage li {
+  float: left;
+  list-style: none;
+}
+
+.lavaLampWithImage li.back {
+  background: #444;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border: 15px 15px 15px 15px;
+  height: 28px;
+  z-index: 8;
+  position: absolute;
+}
+
+.lavaLampWithImage li a {
+  font: normal 130% 'News Cycle', sans-serif;
+  text-shadow:1px 1px #000;
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  text-align: center;
+  letter-spacing: 0;
+  z-index: 10;
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 0px 9px 0 9px;
+  position: relative;
+  overflow: hidden;
+  margin: auto 10px;    
+}
+
+.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
+  border: none;
+}
+
+table.table1{
+	align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.table1 thead th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px black;
+    border:1px solid black;
+    border-bottom:3px solid black;
+    background-color:black;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+.table1 tbody th{
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    background-color:#9DD929;
+    border:1px solid #93CE37;
+    border-right:3px solid #9ED929;
+    padding:0px 10px;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.02, rgb(158,217,41)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(123,192,67))
+        );
+    background: -moz-linear-gradient(
+        left bottom,
+        rgb(158,217,41) 2%,
+        rgb(139,198,66) 51%,
+        rgb(123,192,67) 87%
+        );
+    -moz-border-radius:5px 0px 0px 5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.table1 tfoot td{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+.table1 tfoot th{
+    color:#666;
+}
+.table1 tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
